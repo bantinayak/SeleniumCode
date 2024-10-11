@@ -1,0 +1,22 @@
+package rahulShettyUdemyCourse;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+
+public class DoublePage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.selenium.dev/");
+		driver.navigate().to("https://www.google.co.in/");
+		driver.navigate().back();
+		driver.navigate().forward();
+
+	}
+
+}
