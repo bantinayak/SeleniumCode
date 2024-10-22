@@ -26,7 +26,8 @@ public class assignment2POMOrangeHRM {
 		password.sendKeys(pw);
 	}
 
-	@FindBy(xpath = "//input[@name='username']") WebElement login;
+	@FindBy(xpath = "//input[@name='username']")
+	WebElement login;
 	public void login() {
 		login.click();
 	}

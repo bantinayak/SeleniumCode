@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Banti suite">
+	<test name="First test">
+		<classes>
+			<class name="com.StarAgileTestNGdemos.D05AmazonAssignment">
+				<methods>
+				<exclude name="testTodaysDeal"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

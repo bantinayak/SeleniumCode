@@ -22,9 +22,10 @@ public class assignment2POMOrangeHRMClient {
 	}
 
 	@Test
-	public void g() {
+	public void login() throws InterruptedException {
 		e.enterUserName("admin");
 		e.enterPassword("admin123");
+		Thread.sleep(2000);
 		e.login();
 	}
 

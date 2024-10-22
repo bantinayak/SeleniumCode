@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Banti suite">
+	<test name="First test">
+		<classes>
+			<class name="com.StarAgileTestNGdemos.D05AmazonAssignment"></class>
+			<class name="com.StarAgileTestNGdemos.D07AssertionDemo"></class>
+		</classes>
+	</test>
+</suite>
