@@ -42,6 +42,7 @@ public class D19HandlingDropDown {
 		Thread.sleep(3000);
 		// select.selectByVisibleText("Anguilla");
 		select.selectByValue("6");
+		
 		// select.selectByIndex(4);
 		System.out.println("selected Text is: " + select.getFirstSelectedOption().getText());
 		// driver.close();

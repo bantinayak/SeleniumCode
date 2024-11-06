@@ -15,8 +15,7 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 
 public class D13ReadDataFromExcel {
-	String fpath = System.getProperty("user.dir") + "\\testdata\\LoginData"
-			+ ".xlsx";
+	String fpath = System.getProperty("user.dir") + "\\testdata\\LoginData" + ".xlsx";
 	File file;
 	FileInputStream fis;
 	XSSFWorkbook wb;

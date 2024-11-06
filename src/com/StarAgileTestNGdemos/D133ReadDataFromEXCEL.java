@@ -30,6 +30,8 @@ public class D133ReadDataFromEXCEL {
 		System.out.println(cell.getStringCellValue());
 		System.out.println(sheet.getRow(0).getCell(1).getStringCellValue());
 		System.out.println(sheet.getRow(1).getCell(0).getStringCellValue());
+		
+		
 	}
 
 	@Test
@@ -47,6 +49,7 @@ public class D133ReadDataFromEXCEL {
 			System.out.println(" ");
 		}
 	}
+
 
 	@BeforeTest
 	public void beforeTest() throws IOException {

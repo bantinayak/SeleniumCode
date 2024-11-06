@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.StarAgileTestNGdemos.D10POMTestAutomation">
+      <class name="com.StarAgileTestNGdemos.D14OhrmLoginFromData">
         <methods>
-          <include name="login"/>
           <include name="afterTest"/>
+          <include name="OHrmlogin"/>
           <include name="beforeTest"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.StarAgileTestNGdemos.D10POMTestAutomation -->
+      </class> <!-- com.StarAgileTestNGdemos.D14OhrmLoginFromData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
